@@ -1,1 +1,5 @@
 scrapy27/
+
+lazada/product.json
+lazada/spiders/__pycache__/
+*.py[cod]

@@ -5,10 +5,22 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Item, Field
 
-
-class LazadaItem(scrapy.Item):
+class LazadaItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = Field()
+    price_final = Field()
+    price_old = Field()
+    discount = Field()
+    description = Field()
+    image_url = Field()
+    link_product = Field()
+    date = Field()
+
+    image = Field()
+    sku = Field()
+
+    comment = Field()
+

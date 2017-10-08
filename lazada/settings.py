@@ -19,7 +19,16 @@ NEWSPIDER_MODULE = 'lazada.spiders'
 #USER_AGENT = 'lazada (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+
+
+# ROBOTSTXT_OBEY = True
+
+# ITEM_PIPELINES = {'scrapyapperyio.ApperyIoPipeline': 300}
+# APPERYIO_DB_ID = '59d976f82e22d70ce01e8be0'
+# APPERYIO_USERNAME = 'root'
+# APPERYIO_PASSWORD = 'pass'
+# APPERYIO_COLLECTION_NAME = 'product'
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
