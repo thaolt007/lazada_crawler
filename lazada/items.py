@@ -7,7 +7,7 @@
 
 from scrapy import Item, Field
 
-class LazadaItem(Item):
+class ProductItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     name = Field()
@@ -23,4 +23,18 @@ class LazadaItem(Item):
     sku = Field()
 
     comment = Field()
+
+class CommentItem(Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    sku = Field()
+    rating = Field()
+    detail = Field()
+    nickname = Field()
+    id_rating_review = Field()
+    fk_customer = Field()
+    created_at = Field()
+    title = Field()
+    votes_up = Field()
+    votes_down = Field()
 

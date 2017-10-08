@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from lazada.items import LazadaItem
+from lazada.items import ProductItem
 import urlparse
 import datetime
 
